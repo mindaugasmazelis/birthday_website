@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="page-title">Loading...</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css">
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --secondary-color: #34495e;
+            --background-color: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            --text-color: #333;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 id="event-title">Loading...</h1>
+        <div class="countdown-container">
+            <h2>Laikas iki šampės laistymo</h2>
+            <div id="countdown">
+                <div class="countdown-item">
+                    <span id="days">00</span>
+                    <span>Days</span>
+                </div>
+                <div class="countdown-item">
+                    <span id="hours">00</span>
+                    <span>Hours</span>
+                </div>
+                <div class="countdown-item">
+                    <span id="minutes">00</span>
+                    <span>Minutes</span>
+                </div>
+                <div class="countdown-item">
+                    <span id="seconds">00</span>
+                    <span>Seconds</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="location">
+        <h2>Vietužė</h2>
+        <div id="map"></div>
+        <div class="maps-link-container">
+            <a href="https://maps.app.goo.gl/H5HmhdNWksREjKYb6" target="_blank" class="maps-link">
+                Atidaryti Google Maps
+            </a>
+        </div>
+    </section>
+
+    <section class="venue">
+        <h2>Atmintinė</h2>
+        <div class="venue-details">
+            <p id="venue-laikas">Loading...</p>
+            <p id="venue-kpasiimti">Loading...</p>
+            <p id="venue-gyvnai">Loading...</p>
+            <p id="venue-maistas">Loading...</p>
+            <p id="venue-grimai">Loading...</p>
+            <p id="venue-nakvojimas">Loading...</p>
+            <p id="venue-mons">Loading...</p>
+        </div>
+    </section>
+
+    <section class="gallery" style="display: none;">
+        <h2>Galerija</h2>
+        <div id="gallery-grid" class="gallery-grid">
+            <!-- Gallery items will be added here dynamically -->
+        </div>
+    </section>
+
+    <section class="spotify">
+        <h2>Muzika</h2>
+        <div class="spotify-container">
+            <div class="playlist-description">
+                <a href="https://open.spotify.com/playlist/3kDl1zW4tsOtn94yMsUgDe" class="spotify-link" target="_blank">Pridėti dainą</a>
+            </div>
+            <iframe id="spotify-player" width="100%" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+        </div>
+    </section>
+
+    <footer>
+        <p>Created with ❤️ for my 30th birthday celebration</p>
+    </footer>
+
+    <!-- Debug Button -->
+    <div id="debug-button" style="display: none; position: fixed; bottom: 20px; right: 20px; z-index: 1000;">
+        <button id="download-log-btn" style="padding: 10px; background-color: #ff4444; color: white; border: none; border-radius: 5px; cursor: pointer;">
+            Download Error Log
+        </button>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox-plus-jquery.min.js"></script>
+    <script src="config.js"></script>
+    <script src="debug.js"></script>
+    <script src="script.js"></script>
+</body>
+</html> 
