@@ -17,11 +17,11 @@ const CONFIG = {
         },
         'time': 'Oficialiai pradžia nuo 18:00, bet mes būsime nuo 14:00, taigi jei galit, prisijunkit anksčiau!',
         '🕑 Laikas': 'Oficialiai pradžia nuo 18:00, bet mes būsime nuo 14:00, taigi jei galit, prisijunkit anksčiau!',
-        '🎒 Ką pasiimti': 'Iš būtinų, tai Save. Iš nebūtinų, maudymkes, nes norinčių lauks pirtis ir džekuzi. Asmeninius daiktus naktynei - dauntų šepetuką, telefono kroviklį ir t.t.',
-        '🐾 Gyvūnai': 'Palikim pukuočius, snapuočius ir visus kitus šįkart namie.',
-        '🍗 Maistas': 'Viskuo pasirūpinsim mes. Jei turit rimtų alergijų, ar staiga pavirtot veganais - praneškit.',
+        '🎒 Ką pasiimti': 'Iš būtinų, tai Save. Iš nebūtinų, maudymkes, nes norinčių lauks pirtis ir džiakuzi. Asmeninius daiktus naktynei - dauntų šepetuką, telefono kroviklį ir t.t.',
+        '🐾 Gyvūnai': 'Palikim pūkuočius, snapuočius ir visus kitus šįkart namie.',
+        '🍗 Maistas': 'Viskuo pasirūpinsim mes.',
         '🍾 Gėrimai': 'Viskuo pasirūpinsim mes. Nors žinoma, netyčia atsivežus, irgi rasim panaudojimą.',
-        '💤 Nakvojimas': 'Kadangi renkamės tik vakare, tikiuosi liksit nakvoti. Bus atskiri miegamieji, normalios paklotos lovos - nebent dantų šepetukus turėkit.',
+        '💤 Nakvojimas': 'Kadangi renkamės tik vakare, tikiuosi liksit nakvoti. Bus atskiri miegamieji, normalios paklotos lovos.',
         '🕺 Žmonės': 'Didelė dalis žmonių nebus pažįstami vieni su kitais. Neabejoju, kad rasit bendrą kalbą, bet paruošim veiklų susipažinimui.'
     },
 
